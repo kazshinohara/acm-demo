@@ -6,6 +6,9 @@ subjects:
 - kind: User
   name: kazshinohara@gcpx.org
   apiGroup: rbac.authorization.k8s.io
+- kind: User
+  name: hoge@gcpx.org
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: namespace-reader
