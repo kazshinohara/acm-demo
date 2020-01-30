@@ -4,6 +4,6 @@ metadata:
   name: hello-go-quota
 spec:
   hard:
-    pods: "3"
+    pods: "5"
     cpu: "1"
     memory: 1Gi
